@@ -19,7 +19,7 @@
 
 select {
     display: flex;
-    width: 100px;
+    width: 150px;
     flex-direction: column;
     margin-bottom: 10px;
     padding: 8px;
@@ -29,7 +29,6 @@ select {
 }
 
 .form-buttons {
-    display: flex;
     justify-content: space-between;
 }
 
