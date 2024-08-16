@@ -3,7 +3,9 @@
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    background-color: #f8f8f8;
+    background-color: white;
+    border-bottom: 2px solid black;
+    height: 10%;
 
 }
 

@@ -3,8 +3,10 @@
     background-color: white;
 }
 
+
+
 .main-content {
-    flex-grow: 1;
+    width: 80%;
     padding: 20px;
-    background-color: #f4f4f4;
+    background-color: white;
 }

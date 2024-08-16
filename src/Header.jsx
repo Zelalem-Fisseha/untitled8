@@ -10,7 +10,6 @@ function Header() {
                 <p>Registrar Office</p>
 
             </div>
-
         </div>
     )
 
