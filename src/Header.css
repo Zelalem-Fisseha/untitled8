@@ -1,0 +1,21 @@
+/* src/components/DashboardHeader.css */
+.Header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f8f8f8;
+
+}
+
+.user-info {
+    text-align: right;
+}
+
+.user-info span {
+    background-color: #ff7043;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    font-weight: bold;
+    margin-right: 10px;
+}

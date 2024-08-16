@@ -1,0 +1,52 @@
+.formE {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+
+}
+
+.formE {
+    margin-bottom: 20px;
+}
+
+.Form form {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+
+select {
+    display: flex;
+    width: 100px;
+    flex-direction: column;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter-button {
+    background-color: #74D14C;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.clear-button {
+    background-color: #ff7043;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
