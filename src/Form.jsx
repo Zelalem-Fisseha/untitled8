@@ -5,7 +5,7 @@ function Form(){
     return(
         <div className="formE">
             <h2>Course Eligibility</h2>
-            <form>
+            <form className={'form'}>
                 <select>
                     <option value="2023">2023</option>
                     <option value="2022">2022</option>
