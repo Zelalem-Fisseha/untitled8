@@ -15,21 +15,30 @@ function Sidebar() {
 
 
             </div>
-            <ul className="sidebar-menu">
-            <li id="butt">Academic Time Line</li>
-                <li id="butt">Student Grades</li>
-                <li id="butt">Course Eligibility</li>
-                <li id="butt">Student Promotion</li>
-                <li id="butt">Credit Hour Rate</li>
-                <li id="butt">Payment Information</li>
-            </ul>
+            <div className="sidebar-menu">
+                <p className={'list'}>Classroom management</p>
+                <button type={'button'} className={'button'}>Academic Time Line</button>
+                <p className={'list'}>Student Record</p>
+                <button type={'button'} className={'button'}>Student Grades</button>
+                <button type={'button'} className={'button'}>Course Eligibility</button>
+                <button type={'button'} className={'button'}>Student Promotion</button>
+                <p className={'list'}>Student Financial Record</p>
+                <button type={'button'} className={'button'}>Credit Hour Rate</button>
+                <button type={'button'} className={'button'}>Payment Information</button>
 
-          <div className="logout-button">
-              <button type="button" className="logout">Logout</button>
 
-          </div>
+
+
+            </div>
+
+
+            <div className="logout-button">
+                <button type="button" className="logout">Logout</button>
+
+            </div>
 
         </div>
     )
 }
+
 export default Sidebar;

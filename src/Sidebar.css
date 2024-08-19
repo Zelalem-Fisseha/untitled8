@@ -25,7 +25,7 @@
 .logout-button {
   display: flex;
     justify-content: center;
-    margin-top: 90px;
+    margin-top: 60px;
 
 }
 .logout{
@@ -37,7 +37,32 @@
     cursor: pointer;
 
 }
-.Logo{
+.sidebar-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+
+
+}
+.button{
+    display: flex;
+    background-color: #74D14C;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 5px;
+
+
+
+}
+.list {
+    background-color: #222222;
+    padding: 10px 10px;
+    height: 8px;
 
 }
 
