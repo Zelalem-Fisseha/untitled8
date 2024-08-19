@@ -3,12 +3,14 @@ import './Header.css';
 function Header() {
     return(
         <div className="Header">
-            <h1>Registrar Dashboard</h1>
+            <h1
+            >Registrar Dashboard</h1>
             <div className="user-info">
                 <span>ZF</span>
-                <p>Zelalem Fisseha</p>
-                <p>Registrar Office</p>
-
+                <div className={"profile-info"}>
+                    <p id={"user-name"}>Zelalem Fisseha</p>
+                    <p id={"office-name"}>Registrar Office</p>
+                </div>
             </div>
         </div>
     )

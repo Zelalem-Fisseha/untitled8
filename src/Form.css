@@ -19,13 +19,14 @@
 
 select {
     display: flex;
-    width: 150px;
+    width: 250px;
     flex-direction: column;
     margin-bottom: 10px;
     padding: 8px;
     border: 1px solid #ccc;
-    background-color: white;
+    background-color:#ccc;
     border-radius: 4px;
+
 }
 
 .form-buttons {
