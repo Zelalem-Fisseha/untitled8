@@ -5,12 +5,25 @@ export function Cards({cardContents , ...props}) {
             {cardContents.map((item, index) => {
                 return (
                     <div key={index } style={{...props.style}}>
-                        <div> {item.title} </div>
-                        <div>{item.description}{item.count}</div>
+                        <div className="card-content" style={{margin:"20px",
+                            display:"flex",
+                            flexDirection:"column",
+                            justifyContent:"space-between"
 
 
 
-                </div>)
+
+                        }}>
+                            <div style={{justifyContent:"space-between"}}>
+                                {item.title} </div>
+                            <div
+                                style={{}}>
+                                {item.description}
+                                {item.count}</div>
+                        </div>
+
+
+                    </div>)
 
             })}
         </div>

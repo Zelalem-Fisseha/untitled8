@@ -26,7 +26,7 @@ function Dashboard() {
                 }]
 
 
-                }/>
+                } style={{justifyContent:"space-between"}}/>
 
 
             </div>
