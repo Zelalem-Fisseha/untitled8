@@ -2,7 +2,7 @@ import React from 'react';
 import Sidebar from "./Sidebar.jsx";
 import Header from "./Header.jsx";
 import Form from "./Form.jsx";
-import './App.css';
+import '../css/App.css';
 
 function App() {
     return (
