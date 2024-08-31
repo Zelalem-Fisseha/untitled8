@@ -1,11 +1,3 @@
-.app {
+.dashboard{
     display: flex;
-    background-color: white;
-}
-
-
-
-.main-content {
-    width: 100%;
-    background-color: white;
 }
