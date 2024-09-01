@@ -20,13 +20,20 @@ function Dashboard() {
 
                 <Header/>
                 <Cards cardContents={[{
-                    title: "home",
+                    title: "yom",
                     description: "Home",
-                    count: 4
-                }]
+                    count: 4,
+                },
+                    {
+                        title:"komi",
+                        description:"its",
+                        count: "8"
+                    }
+                ]
 
 
-                } style={{justifyContent:"space-between"}}/>
+                 }/>
+
 
 
             </div>
